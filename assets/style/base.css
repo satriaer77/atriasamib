@@ -1,0 +1,56 @@
+*
+{
+    margin: 0 auto;
+    padding:0;
+}
+@import url('https://fonts.google.com/specimen/Bebas+Neue&display=swap');
+@import url('https://fonts.google.com/specimen/Montserrat');
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-left: #131313 1px solid;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #131313;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+/* BACKGROUND COLOR */
+.background-primary
+{
+    background-color: #131313;
+}
+
+.text-primary
+{
+    color: #131313;
+}
+
+
+
+.background-secondary
+{
+    background-color: #F8F8F8;
+}
+
+.text-secondary
+{
+    color: #F8F8F8;
+}
+
+.text-linethrough
+{
+    text-decoration: line-through;
+}
+

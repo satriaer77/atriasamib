@@ -1,0 +1,210 @@
+.container
+{
+    display: grid;
+    grid:"sidebar content";
+    grid-template-columns: 30% 70%;
+}
+
+
+#sidebar
+{
+    position: sticky;
+    top:0;
+    left: 0;
+    grid-area:"sidebar";
+    align-self: start;
+}
+.sidebar-container
+{
+    display:inline-block;
+    border-right: 2px solid #131313;
+    /* height: 100vh; */
+    padding-right: 0.5rem;
+}
+.sidebar
+{
+    font-family: 'Bebas Neue';
+    height: 100vh;
+    padding:0rem 6rem;
+    color: #F8F8F8;
+}
+
+.sidebar-content-container
+{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+
+.sidebar-content
+{
+    height: auto;
+    padding:6rem 0rem;
+    
+}
+.sidebar-content-logo
+{
+    margin-bottom: 2rem;
+}
+.sidebar-content-logo-title
+{
+    font-size: 1.5rem;
+    letter-spacing:0.15rem;
+}
+
+.sidebar-content-navigation
+{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    letter-spacing:0.15rem;
+}
+.sidebar-content-navigation a
+{
+    color: #F8F8F8;
+    text-decoration: none;
+}
+.sidebar-content-navigation nav
+{
+    margin-bottom: 0.5rem;
+}
+
+.navigation-active::before
+{
+    content: 'a';
+    display:inline-block;
+    width:auto;
+    background-color: #F8F8F8;
+    margin-left: -1.5rem;
+    margin-right: 0.7rem;
+}
+
+.sidebar-content-footer
+{
+    margin-top:4rem;
+}
+.footer-trademark
+{
+    margin-top:0.5rem;
+    font-family: Montserrat;
+    font-size: 0.8rem;
+}
+
+
+
+
+#content
+{
+    width: 100%;
+    font-family: "Bebas Neue";
+    grid-area:"content";
+    overflow: break-word;
+}
+.content-container
+{
+    padding:0rem 5rem 2rem 7rem;
+}
+
+.welcome-text
+{
+    font-size: 2rem;
+}
+.content-section
+{
+    /* margin: 5rem 0; */
+    height: 100vh;
+}
+.content-hobby
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-hobby .content-title
+{
+    display: block;
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    padding-right: 30%;
+    
+}
+.content-hobby span
+{
+    font-size: 1rem;
+}
+
+.content-image
+{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: start;
+    margin-top: 1rem;
+
+}
+.image-border
+{
+    display: inline-block;
+    border: #131313 2px solid;
+    padding: 1rem;
+    margin:0 2rem 0 0rem;
+}
+
+.images-gallery
+{
+    margin-right:1rem;
+}
+
+.card-history
+{
+    padding: 3rem 0 0 2rem;
+}
+.card
+{
+    position: relative;
+}
+.description-edu
+{
+    position:absolute;
+    top:18%;
+    left:15%;
+    width:80%;
+}
+.description-edu p
+{
+    font-family: Montserrat;
+    font-size: 0.8rem;
+}
+
+.profile
+{
+    
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+
+}
+.biodata
+{
+    font-family: Montserrat;
+    font-size: 0.8rem;
+    text-align: justify;
+    margin-top: 1rem;
+    width:80%;
+    margin-left: 0;
+}
+.bio-desc
+{
+    margin-left: 2rem;
+    bottom: 0;
+}
+.description
+{
+    font-family: Montserrat;
+    font-size: 0.8rem;
+    text-align: justify;
+    margin-top: 2rem;
+    margin-left: 0;
+}
